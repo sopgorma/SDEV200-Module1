@@ -9,8 +9,8 @@ public class NineUML {
 		RegularPolygon regularPolygon1 = new RegularPolygon();
 		RegularPolygon regularPolygon2 = new RegularPolygon(6, 4);
 		RegularPolygon regularPolygon3 = new RegularPolygon(10, 4, 5.6, 7.8);
-		System.out.println("\n________________________________________________");
-		System.out.println("| Regular Polygon |  Perimeter  |  Area  |");
+		System.out.println("\n_________________________________________________");
+		System.out.println("|     Regular Polygon    |  Perimeter  |  Area  |");
 		System.out.println("__________________________________________________");
 		System.out.printf( "|       Polygon #1       |%8.2f     |%6.2f  |\n", 
 			regularPolygon1.getPerimeter(), regularPolygon1.getArea());
